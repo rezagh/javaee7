@@ -41,7 +41,16 @@ public class EJBTester {
             @Stateless(name="ConverterBean", mappedName="ejb/ConverterBean")
             public class ConverterBean implements Converter{
         
+        also see
+         
+        http://anirbanchowdhury.wordpress.com/2012/06/07/ejb-3-application-in-glassfish-3x/
+        http://wiki.netbeans.org/CreatingEJB3UsingNetbeansAndGlassfish
+ ` 
+         
         */
+        
+        
+        
         Converter exampleBean = (Converter) ctx.lookup("ejb/ConverterBean");
         
         BigDecimal yenAmount = exampleBean.dollarToYen(new BigDecimal(4));
