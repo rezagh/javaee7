@@ -1,3 +1,5 @@
 /ejbClient/build/
 /ejbClient/dist/
 /CDI_Test/nbproject/private/
+/LoadTest/build/
+/LoadTest/dist/

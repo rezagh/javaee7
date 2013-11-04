@@ -26,7 +26,9 @@ public class NewServlet extends HttpServlet {
         System.out.println(i++);
     }
     protected void processRequest(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        add();
+        //add();
+        
+        
         response.setContentType("text/html;charset=UTF-8");
         PrintWriter out = response.getWriter();
         
